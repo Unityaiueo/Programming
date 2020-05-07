@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>ドットインストール</title>
+  </head>
+  <body>
+     <form action="process.php" method="post"><!--actionで送信先ファイル指定送信方式をmethodで指定-->
+    <label>担当者名 <input type="text" name="username"></label>
+    <label>タスク <input type="text" name="task"></label>
+    <button>OK</button>
+  </form>
+
+  <input type="button" value="OK">
+  <button>OK</button>
+  <input type="button" value="OK" disabled>
+  <button disabled>OK</button><!--disabled一時的に入力無効にする-->
+
+    <p><input type="color"></p><!--色を入力-->
+  <p><input type="date"></p><!--日付を入力-->
+  <p><input type="number"></p><!--数字のみ入力可能-->
+  <p><input type="range"></p><!--スライダー直感操作可能-->
+    <fieldset>
+    <legend>お使いのスマホ</legend><!--線で囲んでグループ化-->
+    <label><input type="checkbox"> iPhone</label><!--チェックボックス-->
+    <label><input type="checkbox" checked> Android</label><!--checkboxをつけると最初からチェックがついてる-->
+    <label><input type="checkbox"> その他</label>
+  </fieldset>
+
+  <fieldset>
+    <legend>一番好きなスマホ</legend>
+    <label><input type="radio" name="phone"> iPhone</label><!--radioでname属性を一つだけしか選べなくする-->
+    <label><input type="radio" name="phone" checked> Android</label>
+    <label><input type="radio" name="phone"> その他</label>
+  </fieldset>  
+
+      <label for="color">好きな色</label>
+      <select id="color"size=2 multiple><!--一度に表示する数を決められるselectでプルダウンリスト作成-->
+        <option>色1</option>
+        <option>色2</option>
+        <option>色3</option>
+        <option selected>色4</option><!--selectedがついているので色４が一番先に選ばれる-->
+        <option>色5</option>
+        <option>色6</option>
+      </select>
+      <input type="text" placeholder="unityaiueo"><!--灰色の薄い文字表示-->
+      <input type="text" value="hello">
+      <input type="password">
+      <label>名前 <input type="text"></label><!--テキストの前に文字入れる-->
+      <input type="password">
+      <textarea></textarea><!--伸縮可能な四角形の入力項目-->
+      <textarea>Hello</textarea>
+      </body>
+</html>

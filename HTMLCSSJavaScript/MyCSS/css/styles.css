@@ -1,0 +1,41 @@
+@charset "utf-8"
+body{/*指定したところを下の指示を与える*/
+  color:skyblue;/*左プロパティ右値*/
+  font-size:12px;/*フォントサイズ変更*/
+  color:red;
+  border:1px solid pink;/*bodyに境界線を引く文字には引かない*/
+}
+h1{
+  border:inherit;/*h1に対して継承させるそうするとh1も境界線を引くことができる*/
+  font-family:Verdana,'Arial Black',メイリオ,sans-self;/*フォント指定Verdana指定指定したものがない場合次のが実装されるsans-selfはゴシック体*/ 
+}
+
+h1{
+  color:red;
+  font-size:48px;
+  text-align:center;/*テキストを中央に持っていく*/
+  font-weight:normal;
+  text-decoration:line-through;/*打消し線*/
+}
+
+p{
+  font-weight:bold;/*文字を太文字にする*/
+  text-decoration: underline;/*アンダーラインを引く*/
+  font-size:16px;
+  line-height:48px;/*３つとも48px指定と同じ*/
+  line-height:3em;
+  line-height:3;
+  background-color:pink;
+}
+
+a{
+  text-decoration:none;
+} 
+main{
+  font-size:32px;
+  line-height:2em;/*親要素の指定したものが子要素のsectionでも反映される*/
+  line-height:2px
+}
+section{
+  font-size:16px
+}

@@ -1,0 +1,28 @@
+body{
+  background:#efefef;
+}
+
+#btn{
+  width:200px;
+  height:200px;
+  background:#ef454a;
+  border-radius:50%;/*丸くする*/
+  margin:30px auto;/*上下に３０左右に等分にする*/
+  text-align:center;/*文字を中央に寄させる*/
+  line-height:200px;/*文字の行間設定(文字の上下の余白)*/
+  color:#fff;
+  font-weight:bold;/*フォントの太さ指定*/
+  font-size:42px;
+  cursor:pointer;
+  box-shadow:0 10px 0 #d1483e;/*影をつける*/
+  user-select:none;/*選択しても青くならなくする*/
+}
+
+#btn:hover{
+  opacity:0.9;/*マウスが触れると色変化*/
+}
+
+#btn:active{
+  box-shadow:0 5px 0 #d1483e;
+  margin-top:35px;
+}
