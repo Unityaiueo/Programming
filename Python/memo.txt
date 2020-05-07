@@ -1,19 +1,94 @@
-# 数当てゲーム
+【コメント】
+# coding: utf-8
+""" 
+Comment
+Comment
+Comment
+"""
+# Comment
+print("Hello World")  
 
-import random
 
-answer = random.randint(1, 10)
-count = 0
+【変数】
 
-while True:
-    print("Your guess? ", end="")
-    guess = int(input())
-    count += 1
-    
-    if answer == guess:
-        print("Bingo! It took %i guesses!" %count)
-        break
-    elif answer > guess:
-        print("Bigger!")
-    else:
-        print("Smaller!")
+# 変数
+
+msg = "Hello World"
+print(msg)
+msg = "Hello Again"
+print(msg)
+
+# 定数: 再代入できない
+ADMIN_EMAIL = "taguchi@gmail.com"　変数名をすべて大文字で書くと定数になる
+【型】
+
+# 文字列
+s = "he\nllo wor\tld"
+html = """<html>
+<body></body>
+</html>"""
+print(s)
+print(html)
+
+# 整数
+i = 10
+
+# 浮動小数点
+f = 23.4
+
+# 論理値
+flag = True # False
+【計算】
+
+# + - * / // % **
+
+x = 10
+print(x / 3) # 3.33...
+print(x // 3) # 3　切り捨て割り
+print(x % 3) # 1
+print(x ** 2) # 100　２乗
+
+y = 4
+# y = y + 12
+y += 12
+print(y) # 16
+
+# and or not
+print(True and False) # False　両方trueならtrue
+print(True or False) # True どちらかがtrueならtrue
+print(not True) # False trueでないならfalse
+
+# + *
+print("hello " + "world")
+print("hello " * 3)
+【】
+【】
+【】
+【】
+【】
+【】
+【】
+【】
+【】
+【】
+【】
+【】
+【】
+【】
+【】
+【】
+【】
+【】
+【】
+【】
+【】
+【】
+【】
+【】
+【】
+【】
+【】
+【】
+【】
+【】
+【】
